@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: antiquewhite;
     background-color: rgb(72, 53, 36);
@@ -36,8 +36,12 @@ nav ul li {
 main {
     width: 95%;
     padding-top: 6em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+/* Welcome Banner Section */
 .welcomePage {
     background-image: url("./images/friends.jpg");
     background-repeat: no-repeat;
@@ -54,6 +58,64 @@ main {
     background-color: rgb(72, 53, 36);
     width: 100%;
     height: fit-content;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Team Section */
+.team {
+    width: 80%;
+    font-size: 2.5em;
+    margin: 1.5em;
+}
+
+.teamPics {
+    width: 42%;
+    min-width: 200px;
+    background-color: rgb(206, 169, 134);
+    color: black;
+    margin: 5px;
+}
+
+.teamPics img {
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+}
+
+.teamPics figcaption {
+    margin: 2.5%;
+}
+
+/* Burger Menu Section */
+.burgers {
+    width: 100%;
+    font-size: 2.5em;
+    background-color: rgb(141, 104, 72);
+    margin: 1.5em;
+}
+
+.burgerPics {
+    width: 30%;
+    min-width: 200px;
+    background-color: rgb(206, 169, 134);
+    color: black;
+    margin: 5px;
+}
+
+.burgerPics img {
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+}
+
+.burgerPics figcaption {
+    margin: 2.5%;
 }
 
 footer {
